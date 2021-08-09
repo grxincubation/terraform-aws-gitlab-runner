@@ -2,6 +2,8 @@ concurrent = ${runners_concurrent}
 check_interval = 0
 sentry_dsn = "${sentry_dsn}"
 
+listen_address = ":9252"
+
 [[runners]]
   name = "${runners_name}"
   url = "${gitlab_url}"
